@@ -1,0 +1,47 @@
+
+.vrs-simple-select-container{
+	margin-right:5px;
+	position:relative;
+	width:255px;
+	height:42px;
+	border:0;
+}
+
+.vrs-simple-select-arrow{
+	position:absolute;
+	right:0;
+	top:0;
+	z-index:1;
+	background:url(images/select-arrow.png) center center no-repeat;
+	width:35px;
+	height:6px;
+	border-left:1px #373737 solid;
+}
+
+.vrs-simple-select-arrow-focus, .vrs-simple-select-arrow-hover{
+	border-left:1px #255ba5 solid;
+}
+
+.vrs-simple-select-overlay{
+	position:absolute;
+	width:255px;
+	height:42px;
+	background:#1e1e1d url(images/select-background.png) repeat-x;
+	left:0;
+	top:0;
+	z-index:1;
+	overflow:hidden;
+}
+
+.vrs-simple-select-overlay-focus, .vrs-simple-select-overlay-hover{
+	background:#1e395d url(images/select-background-hover.png) repeat-x;
+}
+
+.vrs-simple-select-text{
+	position:absolute;
+	top:0;
+	left:15px;
+	font:normal 13px "Tahoma","Arial",sans-serif;
+	color:#fff;
+	overflow:hidden;
+}

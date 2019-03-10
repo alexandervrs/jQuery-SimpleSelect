@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Example</title>
+		<link rel="stylesheet" href="jquery.simpleselect.css" />
+		<script src="jquery.min.js"></script>
+		<script src="jquery.simpleselect.min.js"></script>
+		<script>
+$(document).ready(function(){
+	$('select').simpleSelect();
+});
+	</script>
+	<style>
+select{
+	position:relative;
+	width:255px;
+	height:42px;
+	margin-right:5px;
+	border:1px solid #ccc;
+	font:normal 13px "Tahoma","Arial",sans-serif;
+	cursor:pointer;
+}
+	</style>
+	</head>
+	<body>
+		<select>
+			<option value="1" selected="selected">Option 1</option>
+			<option value="2">Option 2</option>
+			<option value="3">Option 3</option>
+			<option value="4">Option 4</option>
+			<option value="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit</option>
+			<option value="6">Option 6</option>
+			<option value="7">Option 7</option>
+			<option value="8">Option 8</option>
+			<option value="9">Option 9</option>
+			<option value="10">Option 10</option>
+		</select>
+		<select>
+			<option value="1">Option 1</option>
+			<option value="2">Option 2</option>
+			<option value="3">Option 3</option>
+			<option value="4" selected="selected">Option 4</option>
+			<option value="5">Option 5</option>
+			<option value="6">Option 6</option>
+			<option value="7">Option 7</option>
+			<option value="8">Option 8</option>
+			<option value="9">Option 9</option>
+			<option value="10">Option 10</option>
+		</select>
+	</body>
+</html>
